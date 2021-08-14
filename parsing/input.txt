@@ -1,0 +1,86 @@
+/*
+int main ()
+{  
+   int x,y,z ;
+   x =2;
+   y =3;
+   z = x + y * x - y;
+   if(x>y)
+   {
+      int z=3;
+      x=y - z;
+   }
+   while(x<=y)
+   {
+      int y;
+      y=x+1;
+      x=x+y;
+   }
+   int z = 5;
+   z=x; // Redeclaration
+}
+*/
+
+/*
+int main()
+{
+    int x, y;
+    if (x>y)
+    {
+	x=x+2;
+    }
+    if (x<y)
+    {
+	y=y+x;	     
+    }
+    if (x==y)
+    {
+	x=0;
+	y=0;
+    }
+}
+*/
+
+/*
+int main () {
+
+   int a = 100;
+   int b = 200;
+   int c = a+b;
+   while (a<b && b<c) {
+	a=a+1;
+	b=b+a;
+   } 
+}
+*/
+
+/*
+int main()
+{
+     int a;
+     int b;
+     b=100;
+     a=200;
+     if(b>a) {
+     	int a = 5;
+	b=b+a;
+    }
+    else{
+	b=b+a;
+    }
+}
+*/
+
+int main(void)
+{
+    int a, b, c;
+     float d, e, f;
+    a=10;
+    b=20;
+     c=30;
+     f=2.3;
+     d = c+f;
+     e=f+f;
+}
+
+
